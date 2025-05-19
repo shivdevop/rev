@@ -44,7 +44,7 @@ app.get("/",(req,res)=>{
     })
 })
 
-//user can add a new kidney, it can be healthy or unhealthy
+//user can add a new kidney, 
 app.post("/",(req,res)=>{
     let newKidneyStatus=req.body.healthy
     let newKidney={ healthy:newKidneyStatus }
